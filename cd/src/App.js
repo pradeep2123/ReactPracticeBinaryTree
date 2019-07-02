@@ -10,7 +10,7 @@ export default class App extends React.Component{
         Tree:null,
         serialize:null,
         deserializer:null,
-        val:[1,2,3,4]
+        val:null
     }
     createNode = ()=>{
         this.setState(Tree(this.state.val))
